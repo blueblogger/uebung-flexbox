@@ -14,7 +14,7 @@ h1{
 }
 
 section{
-	
+
 	border-bottom: 1px solid #000;
 }
 
@@ -29,11 +29,26 @@ section{
 	padding: 1rem 0;
 	min-height: 300px;
 }
-
+.flexbox	{
+	display: flex;
+	/*http://flexbox.malven.co/*/
+	/*flexbox+playground, http://the-echoplex.net/flexyboxes/ */
+	justify-content: space-around;
+	align-items: flex-start;
+	flex-direction: row;
+	}
+.flexitem{
+	flex-grow: 1;
+	flex-shrink: 1;
+	flex-basis: auto;
+}
+.stretch-item{
+	align-self: stretch;
+}
 
 .col{
 	width: 50px;
-	min-height: 50px;	
+	min-height: 50px;
 }
 
 .trolley-grey{
